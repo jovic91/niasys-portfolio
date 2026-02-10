@@ -2,7 +2,7 @@
 const projects = [
   {
     title: 'NiaSys Portfolio Website',
-    description: 'This is the official portfolio of Niasys, showcasing select projects, technical expertise, and professional experience. Designed with a minimalist approach, the site focuses on clarity, usability, and highlighting the work rather than unnecessary distractions. It reflects the brand\'s commitment to clean, modern design and practical, maintainable IT solutions.',
+    description: 'This is NiaSys official portfolio, highlighting key projects, technical expertise, and professional experience. Built with a minimalist design, it emphasizes clarity, usability, and practical IT solutions, reflecting the brand\'s commitment to modern, maintainable technology.',
     image: '/niasys.webp',
     technologies: ['Vue.js', 'Tailwind CSS', 'SSG', 'SEO', 'UI/UX'],
     url: '#'

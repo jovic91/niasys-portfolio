@@ -5,7 +5,7 @@ const experiences = [
     position: 'Head of IT Development & Delivery',
     company: 'IntechOpen',
     url: 'https://www.intechopen.com/',
-    description: 'Responsible for overseeing the entire IT development lifecycle, from strategic planning to delivery of complex software solutions. Leading cross-functional teams, defining technical strategy, and ensuring projects meet quality, performance, and business requirements. Accountable for process improvement, resource management, and collaboration with stakeholders to align technology initiatives with organizational goals.',
+    description: 'Overseeing the full IT development lifecycle, from strategic planning to delivery of complex software solutions. Leading cross-functional teams, defining technical strategy, and ensuring projects meet quality, performance, and business goals. Responsible for process improvement, resource management, and stakeholder collaboration.',
     technologies: ['Technical Arhitecture', 'System Integrations', 'DevOps', 'Project & Team Management', 'AWS']
   },
   {
@@ -13,7 +13,7 @@ const experiences = [
     position: 'Senior Salesforce Developer | Development Team Lead',
     company: 'HSM Informatika',
     url: 'https://www.hsm360.com/hr/',
-    description: 'Leading the design and delivery of Salesforce solutions while actively contributing through hands-on development with Apex, Lightning, and integrations. Responsible for technical architecture, code quality, and alignment of solutions with business requirements. As Development Team Lead, coordinating the work of developers, mentoring team members, conducting code reviews, and ensuring reliable project delivery through structured processes and collaboration with stakeholders.',
+    description: 'Leading the design and delivery of Salesforce solutions with hands-on Apex, Lightning, and integration development. Responsible for technical architecture, code quality, and aligning solutions with business needs. As Development Team Lead, I coordinate developers, mentor team members, conduct code reviews, and ensure reliable project delivery through structured processes and stakeholder collaboration.',
     technologies: ['Salesforce', 'Apex', 'LWC', 'Asynchronous Apex', 'REST / SOAP APIs', 'CI/CD', 'Middleware solutions', 'Technical Leadership', 'Technical Arhitecture']
   },
   {
@@ -21,7 +21,7 @@ const experiences = [
     position: 'Senior Salesforce Developer',
     company: 'ROKO Labs',
     url: 'https://www.rokolabs.com/',
-    description: 'Designed and implemented a scalable recruitment platform for a leading U.S. hedge fund, built on Salesforce. The project included custom Apex and Lightning development, complex workflow automation, and integrations with external HR and assessment systems. Focus was placed on performance, data security, and flexible architecture capable of supporting high-volume recruitment processes and evolving business requirements.',
+    description: 'Designed and implemented a scalable Salesforce-based recruitment platform for a leading U.S. hedge fund. The project included custom Apex and Lightning development, workflow automation, and integrations with HR and assessment systems, focusing on performance, data security, and a flexible architecture for high-volume recruitment.',
     technologies: ['Salesforce', 'Apex', 'LWC', 'Asynchronous Apex', 'REST / SOAP APIs']
   },
   {
@@ -37,7 +37,7 @@ const experiences = [
     position: 'Lead Developer',
     company: 'IntechOpen',
     url: 'https://www.intechopen.com/',
-    description: 'As Lead Developer, I took responsibility for technical leadership and coordination of the development team, overseeing the delivery of complex projects from planning to production. My role included defining system architecture, mentoring developers, conducting code reviews, and ensuring high standards in quality, security, and performance. <br><br> A key focus was the implementation and integration of Salesforce into back-office processes, designing custom solutions that connected CRM with internal systems, automated workflows, and improved business efficiency. I worked closely with stakeholders to translate business requirements into scalable technical solutions while managing project priorities, timelines, and cross-team collaboration.',
+    description: 'As Lead Developer, I guided the development team, overseeing complex projects from planning to production. My responsibilities included system architecture, mentoring, code reviews, and ensuring high standards in quality, security, and performance. <br><br> A key focus was implementing and integrating Salesforce with back-office systems, designing custom solutions that automated workflows, improved efficiency, and aligned with business requirements, while managing priorities, timelines, and cross-team collaboration.',
     technologies: ['Symfony', 'PHP', 'Node.js', 'Vue.js', 'GraphQL', 'MySQL', 'Salesforce']
   },
   {
