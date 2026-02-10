@@ -1,0 +1,53 @@
+:root {
+  --brand-dark-green: #064D47;
+  --brand-light-green: #00A098;
+  
+  --bg-primary: #0F1612;
+  --bg-surface: #142B36;
+  
+  --text-primary: #f1f5f9;
+  --text-secondary: #808b9b;
+  --text-muted: #64748b;
+  --text-accent: #00A098;
+  --text-accent-hover: #00B8AA;
+  --text-accent-light: #4DD4CB;
+}
+
+.bg-brand-primary { background-color: var(--bg-primary); }
+.bg-brand-surface { background-color: var(--bg-surface); }
+
+.text-brand-primary { color: var(--text-primary); }
+.text-brand-secondary { color: var(--text-secondary); }
+.text-brand-muted { color: var(--text-muted); }
+.text-brand-accent { color: var(--text-accent); }
+.text-brand-accent-light { color: var(--text-accent-light); }
+
+.bg-brand-accent-light { background-color: rgba(0, 160, 152, 0.1); }
+.hover\:bg-brand-surface:hover { background-color: rgba(20, 43, 54, 0.5); }
+
+.hover\:text-brand-primary:hover { color: var(--text-primary); }
+.hover\:text-brand-accent:hover { color: var(--text-accent); }
+.focus-visible\:text-brand-accent:focus-visible { color: var(--text-accent); }
+
+.cursor-gradient {
+  position: relative;
+}
+
+.cursor-gradient::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(500px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
+    var(--bg-surface) 0%, transparent 80%);
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cursor-gradient:hover::before {
+  opacity: 0.5;
+}
