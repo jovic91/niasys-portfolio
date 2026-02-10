@@ -54,7 +54,7 @@ onUnmounted(() => {
       class="relative z-10 mx-auto transition-all duration-500 ease-in-out max-w-7xl md:max-w-none"
     >
       <main 
-        class="px-6 py-12 transition-all duration-500 ease-in-out md:px-12 lg:px-24 lg:py-20"
+        class="px-6 transition-all duration-500 ease-in-out md:px-12 lg:px-24"
       >
         <AboutSection />
         <ExperienceSection />
