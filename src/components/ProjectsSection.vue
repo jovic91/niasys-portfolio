@@ -36,9 +36,9 @@ const projects = [
             <div
               v-for="(project, index) in projects"
               :key="index"
-              class="relative grid gap-4 p-4 pb-1 -mx-4 transition-all rounded-md group sm:grid-cols-8 sm:gap-8 md:gap-4 hover:bg-brand-surface hover:shadow-lg"
+              class="relative grid gap-4 p-4 -mx-4 transition-all rounded-md group sm:grid-cols-8 sm:gap-8 md:gap-4 hover:bg-brand-surface"
             >
-              <div class="absolute z-0 hidden transition rounded-md -inset-x-4 -inset-y-4 motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-brand-surface lg:group-hover:shadow-lg"></div>
+              <div class="absolute z-0 hidden transition rounded-md -inset-x-4 -inset-y-4 motion-reduce:transition-none lg:-inset-x-6 lg:block"></div>
               
               <div class="z-10 sm:order-2 sm:col-span-5">
                 <h3>

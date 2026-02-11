@@ -2,8 +2,15 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="manifest" href="/site.webmanifest">
     
     <title>NiaSys | Web Development · IT Solutions</title>
     <meta name="description" content="NiaSys delivers professional web development and comprehensive IT solutions. Specializing in Salesforce development, modern web applications with Vue.js, PHP, Node.js, and enterprise system integrations.">
@@ -45,7 +52,7 @@
       "name": "NiaSys",
       "url": "https://niasys.hr",
       "logo": "https://niasys.hr/hero-image.png",
-      "email": "info@niasys.hr",
+      "email": "aleks@niasys.hr",
       "foundingLocation": {
         "@type": "Place",
         "name": "Croatia"
@@ -75,8 +82,19 @@
       ]
     }
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZBT4CWKMV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WZBT4CWKMV');
+    </script>
+
   </head>
-  <body class="bg-slate-900">
+  <body class="bg-brand-primary">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>

@@ -66,9 +66,9 @@ const experiences = [
             <div
               v-for="(experience, index) in experiences"
               :key="index"
-              class="relative grid p-4 pb-1 -mx-4 transition-all rounded-md group sm:grid-cols-8 sm:gap-8 md:gap-4 hover:bg-brand-surface hover:shadow-lg"
+              class="relative grid p-4 -mx-4 transition-all rounded-md group sm:grid-cols-8 sm:gap-8 md:gap-4 hover:bg-brand-surface"
             >
-              <div class="absolute z-0 hidden transition rounded-md -inset-x-4 -inset-y-4 motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-brand-surface lg:group-hover:shadow-lg"></div>
+              <div class="absolute z-0 hidden transition rounded-md -inset-x-4 -inset-y-4 motion-reduce:transition-none lg:-inset-x-6 lg:block"></div>
               
               <header class="z-10 mt-1 mb-2 text-xs font-semibold tracking-wide uppercase text-brand-muted sm:col-span-2">
                 {{ experience.period }}
